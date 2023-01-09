@@ -1,4 +1,4 @@
-
+#emulate terminal as outer console
 from getpass import getpass
 print('sign up today')
 name1 = (input('your username will be '))
