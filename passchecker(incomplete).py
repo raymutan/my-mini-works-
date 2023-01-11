@@ -17,8 +17,6 @@ def passcheck(password):
     else:
       print('password successfully created!')
       
-passcheck(input('password is'))
-
 
 
 
