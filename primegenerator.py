@@ -1,3 +1,4 @@
+list=[]
 def primecheck(num):
   num1=num
   if (num==1)or(num1==0):
@@ -7,10 +8,15 @@ def primecheck(num):
       if (num1%i==0):
         break
     else:
-        print('{} is a prime no.'.format(num1))
+        list.append(num1)
+        print('{} is a prime number'.format(num1))
+        
 
 num=2
 max_num=int(input('generate till:'))
 while num<max_num:
   primecheck(num)
   num=num+1
+  
+total=len(list)
+print('total no. of prime numbers = {}'.format(total))  
